@@ -18,7 +18,7 @@ const Weather = () => {
     }
     const handleweather=async ()=>{
         try {
-            const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${'48c519f5127d7f45be1dd9ae8cff8b00'}`, {
+            const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${48c519f5127d7f45be1dd9ae8cff8b00}`, {
             mode: 'cors'
            })
             console.log(response)
